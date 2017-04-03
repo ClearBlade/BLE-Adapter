@@ -1,0 +1,9 @@
+{
+    "creation_date": "2017-02-27T19:05:05Z",
+    "email": "test@clearblade.com",
+    "roles": [
+        "Authenticated",
+        "Administrator"
+    ],
+    "user_id": "c2e1a38b0ba69c94dde3eee3b9c401"
+}

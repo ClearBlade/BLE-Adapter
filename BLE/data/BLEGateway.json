@@ -1,0 +1,27 @@
+{
+    "app_id": "c2e1a38b0be8df8a86fdf0858bd101",
+    "collection_id": "c4e1a38b0b8ad993efe3a1eab8f901",
+    "items": [],
+    "name": "BLEGateway",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "bluetooth_mac",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "status",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}

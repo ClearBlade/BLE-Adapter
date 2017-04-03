@@ -1,0 +1,22 @@
+{
+    "app_id": "c2e1a38b0be8df8a86fdf0858bd101",
+    "collection_id": "c2e1a38b0bf4f98895b78ca2c38101",
+    "items": [],
+    "name": "BLEErrors",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "error_message",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}

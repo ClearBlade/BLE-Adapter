@@ -1,0 +1,42 @@
+{
+    "app_id": "c2e1a38b0be8df8a86fdf0858bd101",
+    "collection_id": "c2e1a38b0be884d29cf694e9f669",
+    "items": [],
+    "name": "BLEDevice",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "gateway_mac",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "device_status",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "ble_device_mac",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "device_type",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "device_addr_type",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}

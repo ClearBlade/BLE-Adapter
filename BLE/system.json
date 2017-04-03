@@ -1,0 +1,10 @@
+{
+    "auth": true,
+    "description": "",
+    "edge_sync": {},
+    "messaging_url": "platform.clearblade.com:1883",
+    "name": "BLE",
+    "platform_url": "https://platform.clearblade.com",
+    "system_key": "c2e1a38b0be8df8a86fdf0858bd101",
+    "system_secret": "C2E1A38B0B88FF8D8D8787959C0E"
+}
