@@ -30,16 +30,15 @@ Before we start the gateway, we need to add a device, representing the gateway, 
 - Enter the following information in the __New Device__ dialog:
   - __Name__: The name of the device
   - __Type__: A description of the type of device being added (for example: Raspberry Pi 3 model B)
-  - __Enabled__: _ _YES_ _
-  - __Allow Key Authorization__: _ _YES_ _
+  - __Enabled__: _YES_ 
+  - __Allow Key Authorization__: _YES_ 
 - Click __Create__
 - In the newly inserted row, double click within the __active_key__ cell and enter an authentication key (ex. 1234567890)
 
 ## Starting the Gateway  
 - Open a terminal session on the device where the gateway will run and enter the following command:
   - sudo python main.py --systemKey <SYSTEM_KEY> --systemSecret <SYSTEM_SECRET>  --deviceName <DEVICE_NAME>  --activeKey <ACTIVE_KEY>  [--platformUrl <PLATFORM_URL>] [--scanInterval <SCAN_INTERVAL>]
-    - Alternatively, you can also use the shorter versions of the flags:
-      - sudo python main.py -k <SYSTEM_KEY> -s <SYSTEM_SECRET> -n <DEVICE_NAME> -a <ACTIVE_KEY> -u <PLATFORM_URL>
+
 - Once the gateway has started, it will automatically:
   1. Start scanning for BLE devices
   2. Add any found devices to the platform
