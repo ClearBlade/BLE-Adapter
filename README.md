@@ -1,4 +1,4 @@
-# Bluetooth Low Enegry Gateway for ClearBlade
+# Bluetooth Low Energy Gateway for ClearBlade
 
 This is a BLE Gateway for the ClearBlade Platform that can be executed on any Linux operating system (including Raspberry Pi) supporting bluetooth. The adapter requires the bluez library to be installed. The adapter connects to the ClearBlade platform over MQTT and sends status and error messages back to the platform for processing. In addition, the adapter will automatically scan for BLE devices and add those devices to the ClearBlade Platform.
 
