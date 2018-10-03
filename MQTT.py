@@ -15,12 +15,12 @@ class MQTT:
                 self.messagingClient = self.Connect()
 
 	def Connect(self):
-                messagingClient = self.system..Messaging(self.user)
+                messagingClient = self.system.Messaging(self.user)
                 messagingClient.connect()
 		return messagingClient
 
 	def PublishTopic(self, topic, message, callback):
-                self.messagingClient.publishMessage(topic, message)
+                self.messagingClient.publish(topic, message)
 
 	def SubscribeToTopic(self, topic, callback):
 		self.messagingClient.subscribe(topic)
